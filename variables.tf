@@ -19,3 +19,8 @@ variable "bucketname" {
   type        = string
   default     = "vijay-giduthuri-cloud"  #change Bucket name also
 }
+variable "acl" {
+  description = "The ACL (Access Control List) for the s3 bucket"
+  type        = string
+  default     = "private"
+}
