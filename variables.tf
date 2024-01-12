@@ -4,7 +4,7 @@ variable "aws_region" {
 }
 variable "key_name" {
   description = " SSH keys to connect to ec2 instance"
-  default     = "Mumbai"     #change key name here
+  default     = "keypair"     #change key name here
 }
 variable "instance_type" {
   description = "instance type for ec2"
