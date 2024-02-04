@@ -4,7 +4,7 @@ variable "aws_region" {
 }
 variable "key_name" {
   description = " SSH keys to connect to ec2 instance"
-  default     = "newkey"     # change key name which you have given to your EC2-Instnace
+  default     = "newkey"       # change key name which you have given to your EC2-Instnace
 }
 variable "instance_type" {
   description = "instance type for ec2"
@@ -17,7 +17,7 @@ variable "ami_id" {
 variable "bucketname" {
   description = "The name of the S3 bucket to create"
   type        = string
-  default     = "vijay-giduthuri-cloud"  #change Bucket name also
+  default     = "vijay-giduthuri-cloud"     #change Bucket name also
 }
 variable "acl" {
   description = "The ACL (Access Control List) for the s3 bucket"
